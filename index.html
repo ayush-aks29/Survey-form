@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="topic">
+      <H1> Geeks for Geeks Survey Form</H1>
+    </div>
+    <div class="form-box">  
+      <form action="#" id="form">
+      <label for = "name" id="id-label">Enter Name</label><br>
+      <input class="input-class" type="text" placeholder="Enter your name" id = "name"><br>
+      <label for="email" id="email-label">Enter Email id</label><br>
+      <input class="input-class" type="text" placeholder="Enter your email address" id = "email"><br>
+      <label for="contact" id="contact-label">Enter your Phone Number</label><br>
+      <input class="input-class" type="text" placeholder = "Enter your phone number" id="contact"><br>
+      <label for="role" id="label-role">Which option best describes you?</label><br>
+      <select name="role" id="role">
+        <option id="default-role" value="#">--select one--</option>
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+      </select>
+      <p>Would you recommend Geeks for Geeks to a friend?</p>
+      <div class="recom">      
+        <div id="choice1">
+          <input type="radio" id="recommend-1" name="recommend"/>Yes
+        </div>
+        <div id="choice2">
+          <input type="radio" id="recommend-2" name="recommend"/>No
+        </div>
+        </div> 
+        <p>Languages and Frameworks known&nbsp;&nbsp;<small><i>(Check all that apply)</i></small>.</p>
+        <div class="lang">
+          <div for="inp-1">
+            <input type="checkbox" name="inp"/>
+            <label>C</label>
+          </div>
+          <div for="inp-2">
+            <input type="checkbox" name="inp"/>
+            <label>C++</label>
+          </div>
+          <div for="inp-3">
+            <input type="checkbox" name="inp"/>
+            <label>Java</label>
+          </div>
+          <div for="inp-4">
+            <input type="checkbox" name="inp"/>
+            <label>Python</label>
+          </div>
+          <div for="inp-5">
+            <input type="checkbox" name="inp"/>
+            <label>HTML</label>
+          </div>
+          <div for="inp-6">
+            <input type="checkbox" name="inp"/>
+            <label>CSS</label>
+          </div>
+          <div for="inp-7">
+            <input type="checkbox" name="inp"/>
+            <label>JavaScript</label>
+          </div>
+          <div for="inp-8">
+            <input type="checkbox" name="inp"/>
+            <label>React</label>
+          </div>
+          <div for="inp-9">
+            <input type="checkbox" name="inp"/>
+            <label>Spring Boot</label>
+          </div>  
+        </div> 
+        <div class="feedback">
+          <p>Write your queries and feedback here.</p>
+          <textarea id="review" name="feedback" rows="10" cols="50"> </textarea>
+        </div>
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>   
+    </div> 
+  </body>
+</html>

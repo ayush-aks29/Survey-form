@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: rgb(250, 235, 215);
+}
+
+.topic {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ffff;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: lemonchiffon;
+  border-radius: 8px;
+  padding: 25px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+.input-class,
+select,
+button {
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 8px 3px;
+}
+
+option,
+#default-role {
+  text-align: center;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-control input[type='radio'],
+.form-control input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+}
+
+#review {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.lang, .recom {
+  width: 99%;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#choice1 {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#choice2 {
+  display: block;
+}
+
+button {
+  background-color: rgb(250, 235, 215);  
+  border: 1px solid #777;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: scale(1.01);
+}
